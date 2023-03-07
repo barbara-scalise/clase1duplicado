@@ -1,0 +1,50 @@
+#imagen-index {
+  height: 410px;
+  margin: 0 auto;
+  background-image: url("../image/shawarma.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+footer {
+  background-position: 10%;
+  background-color: $primary-color;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.conteiner {
+  margin: 0 auto;
+}
+
+.button-index {
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  border-color: #fff;
+
+  &:hover {
+    color: black;
+    background-color: #fff;
+  }
+}
+
+.img-fluid-pedido {
+  width: 300px;
+  margin-top: 30px;
+}
