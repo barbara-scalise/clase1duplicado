@@ -235,13 +235,11 @@ footer {
   border: 1px solid #bbb0b0;
   border-radius: 0.2em;
 }
-
-.form__input--messege {
+.form__container__title__input__input--messege {
   resize: none;
   padding: 1.8em 1em;
 }
-
-.form__cta {
+.form__container__title__input__input--messege__cta {
   background-color: #089fe0;
   color: #fff;
   border: none;
