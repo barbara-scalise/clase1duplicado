@@ -5,8 +5,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /*opacity: 1;*/
-  opacity: 0.5;
 }
 
 .h1-eventos {
@@ -31,17 +29,13 @@
   text-align: center;
   border-color: black;
   flex-wrap: wrap;
-}
-
-.text-borde {
-  -webkit-text-stroke: 1.5px rgb(12, 12, 12);
-  color: rgb(248, 246, 246);
+  background: rgba(5, 7, 12, 0.6);
 }
 
 .p-fechas {
   display: block;
   font-size: x-large;
   /*text-align: justify;*/
-  -webkit-text-stroke: 1px rgb(10, 0, 0);
-  color: rgb(10, 0, 0);
+  -webkit-text-stroke: 1px rgb(250, 246, 246);
+  color: rgb(252, 251, 251);
 }
