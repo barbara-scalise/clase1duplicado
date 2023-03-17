@@ -28,7 +28,7 @@ nav a li:hover {
   background-color: #7c7b7c;
 }
 
-#imagen-index {
+.imagen-index {
   height: 410px;
   margin: 0 auto;
   background-image: url("../image/shawarma.jpg");
@@ -166,37 +166,46 @@ footer {
   background-repeat: no-repeat;
 }
 
-.h1-eventos {
-  margin-left: 30px;
-  color: rgb(14, 13, 13);
-  font-size: 30px;
-  line-height: 80px;
-  text-align: center;
+.container-noticia h1,
+.container-noticia p {
+  color: #fff;
 }
 
-.h2 {
-  color: rgb(253, 253, 253);
-  margin-left: 100px;
-  margin-bottom: 20px;
-  font-size: x-large;
+.container-noticia p {
+  padding: 0.5rem 0;
 }
 
-.fechas {
-  color: rgb(250, 250, 250);
-  margin-bottom: 20px;
-  font-size: xx-large;
-  text-align: center;
-  flex-wrap: wrap;
-  background: rgba(5, 7, 12, 0.6);
-  margin: 20px 320px;
+/* Estilos para el contenedor con fondo transparente */
+.container-noticia {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin: 1.5rem auto;
 }
 
-.p-fechas {
-  display: block;
-  font-size: x-large;
-  /*text-align: justify;*/
-  -webkit-text-stroke: 1px rgb(250, 246, 246);
-  color: rgb(252, 251, 251);
+@media screen and (max-width: 991px) {
+  .container-noticia {
+    width: 100%;
+  }
+}
+.container-noticia::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.container-texto-noticia {
+  position: relative;
+  max-width: 100%;
+  padding: 1rem;
 }
 
 .body {
